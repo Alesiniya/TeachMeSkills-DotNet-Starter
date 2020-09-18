@@ -11,8 +11,6 @@ namespace TeachMeSkills.DotNet.Task1
 
             Console.WriteLine(pi);
             Console.WriteLine(e);
-
-
             Console.ReadLine();
         }
     }
