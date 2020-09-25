@@ -6,17 +6,17 @@ namespace TeachMeSkills.DotNet.Task15
     {
         static void Main(string[] args)
         {
-            int i, result = 1, num = 1;
-
-            Console.WriteLine("");
-            i = int.Parse(Console.ReadLine());
-
-            Console.Write("{0} = ", i);
+            Console.WriteLine("Enter the number of possible delivery options");
+            int a = Convert.ToInt32(Console.ReadLine());
+            int f=1;
+            int n = 1;
             do
             {
-                result *= num;
-                num++;
-            } while (num <= i);
+                f *= n;
+                n ++;
+            }
+            while (n<=a);
+            Console.WriteLine(f);
         }
     }
 }
