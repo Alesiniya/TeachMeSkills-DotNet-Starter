@@ -15,6 +15,13 @@ namespace TeachMeSkills.DotNet.Task13
             {
                 s += i;
             }
+            for (int i = a + 1; i < b; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    Console.WriteLine(i);
+                }
+            }
             Console.WriteLine(s);
             Console.ReadKey();
         }
