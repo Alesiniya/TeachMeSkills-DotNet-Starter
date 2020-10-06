@@ -10,7 +10,6 @@ namespace TeachMeSkills.DotNet._Task_8
         {
             Console.WriteLine("Enter the word about weather in Russian ");
             string userInput = Console.ReadLine();
-            string M = (Console.ReadLine());
             if (userInput)
             {
                 Console.WriteLine("weather");
