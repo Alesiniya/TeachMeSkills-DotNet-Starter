@@ -1,25 +1,20 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace TeachMeSkills.DotNet._Task_8
 {
-    using System;
-    using System.Security;
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the word about weather in Russian ");
-            string userInput = Console.ReadLine();
-            if (userInput)
-            {
-                Console.WriteLine("weather");
-            }
-            else if (a=="снег")
-            {
-                Console.WriteLine ("show");
-            }
+            Console.WriteLine("Write a word about the weather in Russian");
+            string word = Console.ReadLine();
+            if (word=="d") Console.Write("Your translation show");
+            else if (word=="hot") Console.Write("Your translation жарко");
+            else Console.Write(" ");
+
             Console.ReadKey();
         }
     }
 }
-
